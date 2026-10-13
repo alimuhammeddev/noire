@@ -370,7 +370,7 @@ textarea:focus {
 }
 .hero-copy > p {
   color: rgba(255, 255, 255, 0.86);
-  font-size: 12px;
+  font-size: 15px;
   letter-spacing: 0.035em;
   line-height: 1.9;
 }
@@ -479,10 +479,14 @@ textarea:focus {
   max-width: 245px;
   padding-bottom: 6px;
 }
-.heading-aside p,
-.philosophy-copy > p {
+.heading-aside p {
   color: var(--muted);
   font-size: 12px;
+  line-height: 1.9;
+}
+.philosophy-copy > p {
+  color: var(--muted);
+  font-size: 15px;
   line-height: 1.9;
 }
 .editorial-copy > p {
@@ -603,7 +607,7 @@ textarea:focus {
   font-size: clamp(44px, 5.1vw, 69px);
 }
 .philosophy-copy > p {
-  max-width: 390px;
+  max-width: 440px;
   margin: 25px 0 25px;
 }
 .section-number {
@@ -647,9 +651,9 @@ textarea:focus {
   margin: 27px 0 22px;
 }
 .campaign-feature-copy > p {
-  max-width: 270px;
+  max-width: 330px;
   color: rgba(255, 255, 255, 0.8);
-  font-size: 12px;
+  font-size: 15px;
   line-height: 1.8;
 }
 .campaign-feature-copy .text-link {
@@ -1303,9 +1307,9 @@ textarea:focus {
   padding: 0 8.3% 105px;
 }
 .contact-aside p {
-  max-width: 260px;
+  max-width: 320px;
   color: var(--muted);
-  font-size: 11px;
+  font-size: 15px;
   line-height: 1.8;
 }
 .contact-form {
@@ -1548,7 +1552,7 @@ textarea:focus {
     font-size: clamp(74px, 19vw, 108px);
   }
   .hero-copy > p {
-    font-size: 10px;
+    font-size: 15px;
   }
   .hero-actions {
     align-items: flex-start;
